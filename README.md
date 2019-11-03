@@ -6,7 +6,7 @@ To run this project Prerequisite:
     <br/> 	- MySQL Workbench or any other clients to access MySQL database
     <br/> 	- Postman or any other REST Clients
     
- Create A DB in MySQl <b>"CREATE DATABASE user_db;"<b/>
+ Create A DB in MySQl <b>"CREATE DATABASE user_db;"</b>
 
  In the file "src\main\resources\application.properties" set your MySQL user and password
  edit:  spring.datasource.username= <your MySQL user>
