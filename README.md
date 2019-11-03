@@ -1,12 +1,12 @@
 This Java Maven projct is a RESTful API with GET, POST, DELETE and PUT functionality for a Blog.
 
 To run this project Prerequisite:
-    - Eclipse IDE for Java EE or any Java IDE with Apache Maven support.
-    - MySQL 5.x
-    - MySQL Workbench or any other clients to access MySQL database
-    - Postman or any other REST Clients
+    <br/> 	- Eclipse IDE for Java EE or any Java IDE with Apache Maven support.
+    <br/> 	- MySQL 5.x
+    <br/> 	- MySQL Workbench or any other clients to access MySQL database
+    <br/> 	- Postman or any other REST Clients
     
- Create A DB in MySQl "CREATE DATABASE user_db;"
+ Create A DB in MySQl <b>"CREATE DATABASE user_db;"<b/>
 
  In the file "src\main\resources\application.properties" set your MySQL user and password
  edit:  spring.datasource.username= <your MySQL user>
@@ -18,12 +18,7 @@ To run this project Prerequisite:
  
  <b>Create Blog:</b>
  POST request at "http://localhost:8080/users/" with JSON Body as:
- {
-	"username": "anand",
-	"password": "pass",
-	"name": "Nikhil",
-	"blog": "This is my new Blog. I am new to this"
- }
+ { "username": "anand", "password": "pass", "name": "Nikhil", "blog": "This is my new Blog. I am new to this" }
  
  <b>Get all Blog:</b>
  GET request at "http://localhost:8080/users/"
@@ -32,7 +27,8 @@ To run this project Prerequisite:
  GET request at "http://localhost:8080/users/<username>"
  
  <b>Update Blog:(Requires both username and password)</b>
- PUT request at "http://localhost:8080/users/<username>/<password>" with JSON Body as:
+ PUT request at "http://localhost:8080/users/{username}/{password}" with JSON Body as:
+
  {
 	"username": "anand",
 	"password": "Updatedpass",
@@ -41,4 +37,4 @@ To run this project Prerequisite:
  }
  
  <b>Delete Blog:(Requires both username and password)</b>
- DELETE request at "http://localhost:8080/users/<username>/<password>"
+ DELETE request at "http://localhost:8080/users/{username}/{password}"
