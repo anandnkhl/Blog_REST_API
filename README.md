@@ -38,3 +38,7 @@ To run this project Prerequisite:
  
  <b>Delete Blog:(Requires both username and password)</b>
  DELETE request at "http://localhost:8080/users/{username}/{password}"
+ 
+ </br>
+ To do:
+ 1. Add authentication
