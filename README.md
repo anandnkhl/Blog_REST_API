@@ -40,5 +40,5 @@ To run this project Prerequisite:
  DELETE request at "http://localhost:8080/users/{username}/{password}"
  
  </br>
- To do:
- 1. Add authentication
+ To do: <br>
+ 1. Add authentication </br>
