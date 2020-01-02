@@ -41,4 +41,5 @@ To run this project Prerequisite:
  
  </br>
  To do: <br>
- 1. Add authentication </br>
+ 1. Remove DB password for authentication <br>
+ 2. Add authentication </br>
